@@ -1,0 +1,8 @@
+{
+  "name": "cdcMobile",
+  "app_id": "8bd29bc0",
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*"
+  ]
+}

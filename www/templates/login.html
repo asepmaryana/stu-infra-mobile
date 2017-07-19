@@ -1,0 +1,19 @@
+<ion-view view-title="Login">
+	<ion-header-bar class="bar-assertive">
+		<h1 class="title">CDC App</h1>
+		<div class="buttons">
+		</div>
+	</ion-header-bar>
+	<ion-content padding="true">
+		<div class="list list-inset">
+          <label class="item item-input">
+              <input type="text" placeholder="Username" ng-model="credentials.username">
+          </label>
+          <label class="item item-input">
+              <input type="password" placeholder="Password" ng-model="credentials.password">
+          </label>
+		</div>
+		<button class="button button-block button-calm" ng-click="login(credentials)">Login</button>
+		{{result}}
+	</ion-content>
+</ion-view>
